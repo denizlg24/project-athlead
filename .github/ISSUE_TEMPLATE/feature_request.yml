@@ -9,14 +9,12 @@ body:
     attributes:
       label: Short description
       placeholder: "One-line summary of the feature"
-      required: true
   - type: textarea
     id: user_story
     attributes:
       label: User story
       description: "Describe who it's for and what problem it solves (As a <role>, I want <capability>, so that <benefit>)"
       placeholder: "As a HS captain, I want to receive weekly prompts so I can practice reflective leadership."
-      required: true
   - type: dropdown
     id: priority
     attributes:
