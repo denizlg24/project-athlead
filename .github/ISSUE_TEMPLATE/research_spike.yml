@@ -1,0 +1,27 @@
+name: Research spike
+description: Small research task to explore options or prototype
+title: "[Spike] {{short_description}}"
+labels: ["research", "spike"]
+body:
+  - type: input
+    id: short_description
+    attributes:
+      label: Short description
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort estimate
+      options:
+        - 1 day
+        - 2 days
+        - 3+ days
+  - type: textarea
+    id: goals
+    attributes:
+      label: Goals
+      description: "What questions should this spike answer?"
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: "Expected artifacts (doc, prototype, benchmarks)"
