@@ -1,0 +1,14 @@
+name: Question / Support
+description: Ask project maintainers a question
+title: "[Question] {{short_summary}}"
+labels: ["question"]
+body:
+  - type: input
+    id: short_summary
+    attributes:
+      label: Short summary
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      placeholder: "Describe the question or support request"
