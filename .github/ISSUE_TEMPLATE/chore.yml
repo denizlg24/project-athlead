@@ -1,0 +1,22 @@
+name: Chore
+description: Non-feature work: infra, CI, chores
+title: "[Chore] {{short_description}}"
+labels: ["chore"]
+body:
+  - type: input
+    id: short_description
+    attributes:
+      label: Short description
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      placeholder: "List sub-tasks or steps"
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      options:
+        - Low
+        - Medium
+        - High
