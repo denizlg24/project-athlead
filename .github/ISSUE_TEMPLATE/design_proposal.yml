@@ -6,26 +6,26 @@ body:
   - type: input
     id: short_title
     attributes:
-      label: Short title
+      label: "Short title"
   - type: textarea
     id: summary
     attributes:
-      label: Executive summary
-  - type: radio
+      label: "Executive summary"
+  - type: dropdown
     id: type
     attributes:
-      label: Proposal type
+      label: "Proposal type"
       options:
-        - UI
-        - Architecture
-        - Data model
+        - "UI"
+        - "Architecture"
+        - "Data model"
   - type: textarea
     id: details
     attributes:
-      label: Full proposal
+      label: "Full proposal"
       description: "Detailed steps, diagrams (link to images), API shapes"
   - type: input
     id: reviewers
     attributes:
-      label: Suggested reviewers
-      placeholder: "@denizg, @teamlead"
+      label: "Suggested reviewers"
+      placeholder: "@denizlg24, @teamlead"
