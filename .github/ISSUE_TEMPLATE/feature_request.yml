@@ -1,0 +1,40 @@
+name: Feature request
+description: Propose a new feature or enhancement
+title: "[Feature] {{short_description}}"
+labels: ["feature", "triage"]
+assignees: []
+body:
+  - type: input
+    id: short_description
+    attributes:
+      label: Short description
+      placeholder: "One-line summary of the feature"
+      required: true
+  - type: textarea
+    id: user_story
+    attributes:
+      label: User story
+      description: "Describe who it's for and what problem it solves (As a <role>, I want <capability>, so that <benefit>)"
+      placeholder: "As a HS captain, I want to receive weekly prompts so I can practice reflective leadership."
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+  - type: checkboxes
+    id: acceptance
+    attributes:
+      label: Acceptance criteria (tick all that apply)
+      options:
+        - label: UI design available
+        - label: Backend API defined
+        - label: Tests written
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes / links
+      placeholder: "Links to sketches, examples, or competitor apps"
