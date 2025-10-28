@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a reproducible bug
+title: "[Bug] {{short_summary}}"
+labels: ["bug", "triage"]
+body:
+  - type: input
+    id: short_summary
+    attributes:
+      label: Short summary
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: "Step-by-step reproduction instructions"
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: "Browser, OS, device, or backend version"
