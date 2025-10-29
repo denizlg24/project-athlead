@@ -1,4 +1,4 @@
-# project-athlead
+# project-dvco
 
 > A modern platform for leaders and teams to set goals, track progress, and share wins — built for simplicity, transparency, and motivation.
 
@@ -20,7 +20,7 @@ The setup is flexible — small teams can start with a single repo, while larger
 ## 📦 Monorepo Structure
 
 ```
-/project-athlead
+/project-dvco
  ├── apps/
  │   ├── web/        # Next.js frontend
  │   └── api/        # NestJS backend
@@ -34,8 +34,8 @@ The setup is flexible — small teams can start with a single repo, while larger
 ## 🧭 Local Development
 
 ```bash
-git clone https://github.com/denizlg24/project-athlead.git
-cd project-athlead
+git clone https://github.com/denizlg24/project-dvco.git
+cd project-dvco
 pnpm install
 pnpm dev
 ```
